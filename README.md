@@ -2,7 +2,9 @@
 
 ## Descripción
 Sitio web educativo sobre aprendizaje de CSS desde cero. Incluye información sobre Flexbox, Grid, animaciones y más.
-Echale un vistazo al sitio: 
+
+Sitio: https://brandoniturra-programmer.github.io/Aprende-Css/
+
 ## 🛠️ Tecnologías utilizadas
 - HTML5
 - CSS3
