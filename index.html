@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprende CSS</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Etiquetas Metas-->
+    <meta name="theme-color" content="#2091F9">
+    <title>Aprende CSS</title>
+    <meta name="title" content="Aprende CSS" />
+    <meta name="description" content="Todo lo que quieras saber esta aqui! Echa un vistazo y aprende CSS desde cero." />
+
+
+  </head>
+  <body>
+    <header class="hero">
+      <!--Nav: Para el contenido superior-->
+      <nav class="nav container">
+        <div class="nav_logo">
+          <h2 class="nav_title">Curso Css.</h2>
+        </div>
+
+        <ul class="nav_link nav_link--menu">
+          <li class="nav_items">
+            <a href="#" class="nav_links"> Inicio</a>
+          </li>
+          <li class="nav_items">
+            <a href="#" class="nav_links"> Acerca de mi</a>
+          </li>
+          <li class="nav_items">
+            <a href="#" class="nav_links"> Contacto</a>
+          </li>
+          <li class="nav_items">
+            <a href="#" class="nav_links"> Blog</a>
+          </li>
+
+          <img src="Imagenes/close.svg" alt="close" class="nav_close"/>
+        </ul>
+
+        <div class="nav_menu">
+          <img src="Imagenes/menu.svg" alt="menu" class="nav_img" />
+        </div>
+
+      </nav>
+
+      <!--sectio Hero: para el contenido principal-->
+      <section class="hero_container container">
+        <h1 class="hero_tittle">Aprende Css desde CERO</h1>
+        <p class="hero_description">
+          Crea tu propia pagina web. Y elige aprender CSS de una vez por todas,
+          en este curso seras capaz de crear cualquier layout.
+        </p>
+        <a href="#" class="cta">Comienza ahora</a>
+      </section>
+    </header>
+    <main>
+      <!--Pagina principal-->
+      <section class="container about">
+        <h2 class="subtitle">Que aprenderas en este curso?</h2>
+        <p class="about_paragraph">
+          Todo lo necesario y obligartorio de CSS, (Flexbox,Grid, Custom
+          properties, Position, Animacion, Box Model y mas).
+        </p>
+        <div class="about_main">
+          <article class="about_icons">
+            <img src="Imagenes/layout.svg" alt="icono0" class="about_icon" />
+            <h3 class="about_title">CSS Layouts</h3>
+            <p class="about_paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              tempore porro eius facilis?
+            </p>
+          </article>
+
+          <article class="about_icons">
+            <img src="Imagenes/Animacion.svg" alt="icono1" class="about_icon" />
+            <h3 class="about_title">Animacion</h3>
+            <p class="about_paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              tempore porro eius facilis?
+            </p>
+          </article>
+
+          <article class="about_icons">
+            <img src="Imagenes/Sass.svg" alt="icono2" class="about_icon" />
+            <h3 class="about_title">Sass</h3>
+            <p class="about_paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              tempore porro eius facilis?
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="knowledge">
+        <div class="knowledge_container container">
+          <div class="knowledge_texts">
+            <h2 class="subtitle">Curso completo de CSS3.!Domina CSS!</h2>
+            <p class="knowledge_paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+              cumque, voluptatibus, doloremque.
+            </p>
+            <a href="#" class="cta">Entra al curso</a>
+          </div>
+
+          <figure class="knowledge_picture">
+            <img
+              src="Imagenes/notebook.jpg"
+              alt="notebook"
+              class="knowledge_img"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="price container">
+        <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
+
+        <div class="price_table">
+          <div class="price_element">
+            <p class="price_name">Flexbox</p>
+            <h3 class="price_price">Free</h3>
+
+            <div class="price_items">
+              <p class="price_features">Flexbox</p>
+              <p class="price_features">Layouts</p>
+              <p class="price_features">Resposive</p>
+            </div>
+
+            <a href="#" class="price_cta">Empieza ahora</a>
+          </div>
+
+          <div class="price_element price_element--best">
+            <p class="price_name">Grid</p>
+            <h3 class="price_price">$30/mes</h3>
+
+            <div class="price_items">
+              <p class="price_features">Grid</p>
+              <p class="price_features">Implicit Grid</p>
+              <p class="price_features">Resposive</p>
+            </div>
+            <a href="#" class="price_cta">Empieza ahora</a>
+          </div>
+
+          <div class="price_element">
+            <p class="price_name">Animaciones</p>
+            <h3 class="price_price">$40/mes</h3>
+
+            <div class="price_items">
+              <p class="price_features">Animation</p>
+              <p class="price_features">Transition</p>
+              <p class="price_features">Render Website</p>
+            </div>
+
+            <a href="#" class="price_cta">Empieza ahora</a>
+          </div>
+        </div>
+      </section>
+
+      <!--Sliders!-->
+      <section class="testimony">
+        <di class="testimony_container container">
+          <img src="Imagenes/icons1.svg" class="testimony_arrow" alt="icons1" id="before">
+
+          <section class="testimony_body testimony_body--show" data-id="1">
+            <div class="testimony_texts">
+              <h2 class="subtitle">
+                Mi nombre es Brandon Iturra,
+                <span class="testimony_course">estudiante de CSS.</span>
+              </h2>
+              <p class="testimony_review">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                esse, asperiores eaque totam nulla repudiandae quasi, deserunt
+                culpa exercitationem blanditiis laborum veniam laboriosam saepe
+                reiciendis dolorem. Cum, ratione voluptatum!
+              </p>
+            </div>
+
+            <figure class="testimony_picture">
+              <img
+                src="Imagenes/Brandon.jpg"
+                class="testimony_img"
+                alt="Mi imagen"
+              />
+            </figure>
+          </section>
+
+          <section class="testimony_body" data-id="2">
+            <div class="testimony_texts">
+              <h2 class="subtitle">
+                Mi nombre es Sandra Mena,
+                <span class="testimony_course">estudiante de CSS.</span>
+              </h2>
+              <p class="testimony_review">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                esse, asperiores eaque totam nulla repudiandae quasi, deserunt
+                culpa exercitationem blanditiis laborum veniam laboriosam saepe
+                reiciendis dolorem. Cum, ratione voluptatum!
+              </p>
+            </div>
+
+            <figure class="testimony_picture">
+              <img
+                src="Imagenes/Sandra.jpg"
+                class="testimony_img"
+                alt="Mi imagen"
+              />
+            </figure>
+          </section>
+
+          <section class="testimony_body" data-id="3">
+            <div class="testimony_texts">
+              <h2 class="subtitle">
+                Mi nombre es Alex Iturra,
+                <span class="testimony_course">estudiante de CSS.</span>
+              </h2>
+              <p class="testimony_review">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                esse, asperiores eaque totam nulla repudiandae quasi, deserunt
+                culpa exercitationem blanditiis laborum veniam laboriosam saepe
+                reiciendis dolorem. Cum, ratione voluptatum!
+              </p>
+            </div>
+
+            <figure class="testimony_picture">
+              <img
+                src="Imagenes/Alex.jpg"
+                class="testimony_img"
+                alt="Mi imagen"
+              />
+            </figure>
+          </section>
+
+          <section class="testimony_body" data-id="4">
+            <div class="testimony_texts">
+              <h2 class="subtitle"> Mi nombre es Briana Iturra,
+                <span class="testimony_course">estudiante de CSS.</span>
+              </h2>
+              <p class="testimony_review">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                esse, asperiores eaque totam nulla repudiandae quasi, deserunt
+                culpa exercitationem blanditiis laborum veniam laboriosam saepe
+                reiciendis dolorem. Cum, ratione voluptatum!
+              </p>
+            </div>
+
+            <figure class="testimony_picture">
+              <img
+                src="Imagenes/Briana.jpg"
+                class="testimony_img"
+                alt="Mi imagen"
+              />
+            </figure>
+          </section>
+          <img src="Imagenes/icons2.svg" class="testimony_arrow" alt="icons2" id="next"/>
+        </div>
+      </section>
+
+      <!--Preguntas frecuentes-->
+      <section class="questions container">
+        <h2 class="subtitle">Pregunta Frecuentes</h2>
+        <p class="questions_paragraph">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
+          doloribus neque perspiciatis sapiente fuga.
+        </p>
+
+        <section class="questions_container">
+          <article class="questions_padding">
+            <div class="questions_answer">
+              <h3 class="questions_title"> ¿Que es CSS?
+                <span class="questions_arrow">
+                  <img src="Imagenes/plus.svg" class="questions_img" alt="+" />
+                </span>
+              </h3>
+              <p class="questions_show">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                facere, quidem eum id excepturi assumenda explicabo nam
+                accusamus veritatis voluptates eveniet adipisci, dicta nihil
+                nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                amet consectetur adipisicing elit. Quos facere, quidem eum id
+                excepturi assumenda explicabo nam accusamus veritatis voluptates
+                eveniet adipisci, dicta nihil nemo modi possimus officiis quam
+                atque?
+              </p>
+            </div>
+          </article>
+
+          <article class="questions_padding">
+            <div class="questions_answer">
+              <h3 class="questions_title"> ¿Que es Flexbox desde cero?
+                <span class="questions_arrow">
+                  <img src="Imagenes/plus.svg" class="questions_img" alt="+" />
+                </span>
+              </h3>
+              <p class="questions_show">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                facere, quidem eum id excepturi assumenda explicabo nam
+                accusamus veritatis voluptates eveniet adipisci, dicta nihil
+                nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                amet consectetur adipisicing elit. Quos facere, quidem eum id
+                excepturi assumenda explicabo nam accusamus veritatis voluptates
+                eveniet adipisci, dicta nihil nemo modi possimus officiis quam
+                atque?
+              </p>
+            </div>
+          </article>
+
+          <article class="questions_padding">
+            <div class="questions_answer">
+              <h3 class="questions_title"> ¿Qué es CSS GRID?
+                <span class="questions_arrow">
+                  <img src="Imagenes/plus.svg" class="questions_img" alt="+" />
+                </span>
+              </h3>
+              <p class="questions_show">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                facere, quidem eum id excepturi assumenda explicabo nam
+                accusamus veritatis voluptates eveniet adipisci, dicta nihil
+                nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                amet consectetur adipisicing elit. Quos facere, quidem eum id
+                excepturi assumenda explicabo nam accusamus veritatis voluptates
+                eveniet adipisci, dicta nihil nemo modi possimus officiis quam
+                atque?
+              </p>
+            </div>
+          </article>
+
+        </section>
+
+        <section class="questions.offer">
+         <h2 class="subtitle">¿Estas listo para aprender CSS?</h2>
+          <p class="questions_copy">
+           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione
+           architecto magnam, officiis ex porro vero est voluptates quaerat quibusdam illo veniam reprehenderit
+           eius atque tempora iure ab non autem.
+          </p>
+         <a href="#" class="cta">Aprender ahora</a>
+        </section>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <section class="footer_container container">
+        <nav class="nav nav--footer">
+          <h2 class="footer_title">Curso CSS</h2>
+          <ul class="nav_link nav_link--footer">
+            <li class="nav_items">
+              <a href="#" class="nav_links"> Inicio</a>
+            </li>
+            <li class="nav_items">
+              <a href="#" class="nav_links"> Acerca de mi</a>
+            </li>
+            <li class="nav_items">
+              <a href="#" class="nav_links"> Contacto</a>
+            </li>
+            <li class="nav_items">
+              <a href="#" class="nav_links"> Blog</a>
+            </li>
+          </ul>
+        </nav>
+
+        <form  class="footer_from" action="https://formspree.io/f/manjygaw" method="POST">
+          <h2 class="footer_newsletter">Sucribete a la Newletter</h2>
+          <div class="footer_inputs">
+            <input type="email" placeholder="Email" class="footer_input" name="email">
+            <input type="submit" value="Registrarte" class="footer_submit">
+          </div>
+        </form>
+      </section>
+
+      <section class="footer_copy container">
+        <div class="footer_social">
+          <a href="https://www.facebook.com/?locale=es_LA" target="_blank" class="footer_icons"> <img src="Imagenes/facebook.svg" alt="Faceboook"></a>
+          <a href="https://x.com/?lang=es" target="_blank" class="footer_icons"> <img src="Imagenes/twitter.svg" alt="Twitter"></a>
+          <a href="https://www.youtube.com/" target="_blank" class="footer_icons"> <img src="Imagenes/youtube.svg" alt="Youtube"></a>
+        </div>
+
+        <h3 class="footer_copyright">Derechos reservados &copy;|Familia Iturra </h3>
+
+      </section>
+    </footer>
+
+    <script src="slider.js"></script>
+    <script src="questions.js"></script>
+    <script src="menu.js"></script>
+  </body>
+</html>
